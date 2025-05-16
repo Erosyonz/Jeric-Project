@@ -1,0 +1,83 @@
+html {
+  scroll-behavior: smooth;
+}
+.one, .two {
+  display: inline-block; /* Needed for transform */
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: default;
+}
+
+/* On hover: gently scale up and change color */
+.one:hover, .two:hover {
+  transform: scale(1.1) translateY(-5px);
+  color: #b35900; /* A warm highlight color */
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+/* Optional: add a subtle text shadow when hovered */
+.one:hover, .two:hover {
+  text-shadow: 1px 1px 5px rgba(179, 89, 0, 0.7);
+}
+
+.bouncy-text span {
+  display: inline-block;
+  animation: bounce 1s infinite;
+  animation-delay: calc(var(--i) * 0.1s);
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Apply bounce animation to class 'one' */
+.one {
+  
+  animation: bounce 1s infinite;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Make the Homepage section a container */
+.Homepage {
+  position: relative;   /* needed for sticky context */
+  /* If your Homepage height is flexible, it works automatically */
+  /* You can also set min-height to control */
+}
+
+/* Sticky navbar inside Homepage */
+.upper {
+  position: fixed;
+  left: 0;
+  top: -8%;
+  width: 100%;
+  background-color: beige;
+  opacity: 0.5;
+  height: 20%;
+  display: flex;
+  gap: 5%;
+  z-index: 100%;
+  transition: opacity 0.3s ease;
+  margin: 0;
+}
+
+.upper:hover {
+  opacity: 1;
+}
+
+/* Push page content so it’s not hidden behind the bottom bar */
+.ContentHP {
+  padding-bottom: 20%; /* same height as .upper */
+}
+:hover.Cheader{
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    transform: scale(1.1) translateX(5%);
+    text-shadow: 1px 1px 0px white;
+    color: rgba(179, 89, 0, 0.7);
+}

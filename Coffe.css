@@ -1,0 +1,330 @@
+/*No need class*/
+body{
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/*Whole*/
+.whole{
+    background-color: beige;
+}
+
+/* Homepage */
+.Homepage{
+    background-image: url('coffeimg/coffe.jpg');
+    background-size: cover;
+}
+.upper{
+    opacity: 50%;
+    background-color: beige;
+    height: 20%;
+    margin-top: -2%;
+    display: flex;
+    gap: 5%;
+}
+:hover.upper{
+    opacity: 100%;
+}
+.logo{
+    
+    margin-left: 1%;
+    margin-top: 3%;
+    width: 10%;
+    height: auto;
+}
+.searches{
+    color: rgb(148, 47, 47);
+    margin-top: 6%;
+    font-size: 2em;
+}
+:hover.searches{
+    transform: scale(1.1);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.ONt{
+    color: beige;
+    font-size: 1.5em;
+    margin-top: 12%;
+}
+.ON{
+
+    text-align: center;
+    font-size: 1em;
+    border: none;
+    box-shadow: 4px 5px 2px rgb(134, 97, 97);
+    background-color: rgb(155, 113, 113);
+    width: 10%;
+    height: 4em;
+    border-radius: 5em;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+:hover.ON{
+    transform: scale(1.1);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+/*HP content*/
+.ContentHP{
+    margin-top: -5%;   
+    height: 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wholeHP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.ChildHP{
+    padding: 40px;
+    border-radius: 10px;
+   
+}
+.one{
+    font-size: 4em;
+    color: beige;
+}
+.two{
+    margin-left: 2%;
+    margin-top: -5%;
+    font-size: 3em;
+    color: beige;
+}
+/* Menu */
+.MenuContent1{
+    background-image: url('coffeimg/splash.png');
+    background-size: cover;
+    background-position: 20%;
+}
+.MenuContent{
+    background-image: url('coffeimg/cover.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.MenuHeader{
+    text-decoration: underline;
+    text-decoration-color: brown;
+    font-size: 5em;
+    text-align: center;
+}
+.Mtag{
+    
+    margin-top: -3%;
+    font-size: 1.5em;
+    text-align: center;
+}
+.Choices{
+    gap: 5%;
+    margin-top: -5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+.Choices1{
+    gap: 5%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+.Mchoices1{
+    color: white;
+    text-shadow: 0px 5px 10px black;
+    margin-top: -7%;
+    font-size: 2em;
+}
+.Mchoices5, .Mchoices4, .Mchoices2{
+    color: rgb(92, 25, 25);
+    text-shadow: 0px 5px 5px rgb(151, 83, 83) ;
+    margin-top: -7%;
+    font-size: 2em;
+}
+.Mchoices3{
+    color: white;
+    text-shadow: 0px 5px 10px black;
+    margin-top: -6%;
+    font-size: 2em;
+}
+.Mchoices6{
+    color: rgb(92, 25, 25);
+    text-shadow: 0px 5px 5px rgb(151, 83, 83) ;
+    margin-top: -3%;
+    font-size: 2em;
+}
+.C3,.C1{
+    box-shadow: -5px 5px 10px 5px rgb(95, 46, 46);
+    background-color: rgb(138, 77, 77);
+    border-radius: 5%;
+}
+.C1c{
+    margin-top: 28%;
+    width: auto;
+    height: 70%;
+}
+
+.C2c{
+    
+    margin-top: 15%;
+    width: auto;
+    height: 80%;
+}
+.C3c{
+    margin-left: -10%;
+    margin-top: 13%;
+    width: auto;
+    height: 80%;
+}
+.TM {
+  width: 100%; 
+  text-align: center; 
+  
+}
+
+.drinks{
+    font-size: 2em;
+    display: inline-block;
+    background-color: #a87b7b; 
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.5em;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.F1c{
+    margin-top: 28%;
+    width: auto;
+    height: 65%;
+}
+
+.F2c{
+    
+    margin-top: 20%;
+    width: auto;
+    height: 70%;
+}
+.F3c{
+    
+    margin-top: 30%;
+    width: auto;
+    height: 60%;
+}
+/*.F2{
+    background-color: rgb(138, 77, 77);
+    border-radius: 5%;
+}*/
+/*Contact Us*/
+.CONTACT{
+    padding-top: 2em;
+    padding-left: 1em;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url('coffeimg/ContactBG.jpg');
+    background-size: cover;
+    height: 50%;
+    
+}
+.Cheader{
+    
+    color: white;
+    text-shadow: 5px 5px 5px rgb(117, 61, 61);
+    font-size: 5em;
+}
+.Ctext1{
+    margin-top: -4%;
+    color: rgba(179, 89, 0, 0.7);;
+    text-shadow: 0px 1px 1px white;
+    font-size: 2em;
+}
+.Ctext{
+    margin-top: -1%;
+    color: white;
+    font-size: 2em;
+}
+/*Contact us left*/
+
+.socials{
+    height: 10%;
+    padding: 2em;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    gap: 2em;
+}
+.Icons {
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr;
+  gap: 2em;
+}
+.Ic{
+  width: 30%;
+  height: auto;
+  
+}
+.icon {
+ 
+  background-color: rgb(151, 83, 83);
+  height: 100%;
+  width: auto;
+  border-radius: 1em;
+  box-shadow: 0 4px 10px rgb(94, 38, 38);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Iconsp{
+    color: beige;
+    font-size: 1.5em;
+}
+.map-container{
+    text-align: center;
+}
+.map{
+    border-radius: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 40%;
+}
+/*Inquiry Area*/
+.T{
+    text-indent: 1em;
+    font-size: 0.7em;
+    border-radius: 1em;
+    width: 100%;
+    height: 8%;
+}
+.M{
+     text-indent: 1em;
+    font-size: 0.7em;
+    border-radius: 0.5em;
+    width: 100%;
+    height: 20%;
+}
+.btn-primary{
+    border: none;
+    background-color: brown;
+    box-shadow: 2px 2px 2px 2px rgb(83, 26, 26);
+    margin-top: 2%;
+    border-radius: 2em;
+    height: 10%;
+    width: 20%;
+}
+
+
